@@ -609,6 +609,13 @@ h4.min_padding {
     line-height: 160%;
     margin-bottom: 20px;
     padding: 10px;
+    max-width: 100%; /* Define a largura máxima para a caixa */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites */
+}
+
+.youtube {
+    max-width: 100%; /* Define a largura máxima para o vídeo */
+    height: auto; /* Mantém a proporção da altura */
 }
 
 .box2,
